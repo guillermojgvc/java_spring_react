@@ -1,4 +1,4 @@
-package net.sofwareevolutivo.flight;
+package ec.desarollo.no_circula;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(FlightApplication.class);
+		return application.sources(Application.class);
 	}
 
 }

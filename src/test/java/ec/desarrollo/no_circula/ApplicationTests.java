@@ -1,10 +1,10 @@
-package net.sofwareevolutivo.flight;
+package ec.desarrollo.no_circula;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FlightApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
