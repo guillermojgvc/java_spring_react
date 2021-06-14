@@ -82,12 +82,12 @@ public class VehiculoRestriccionServiceImpl implements VehiculoRestriccionServic
 					}
 
 				} else {
-					respuesta.setHttpStatus(HttpStatus.NOT_FOUND);
+					respuesta.setHttpStatus(HttpStatus.NO_CONTENT);
 					respuesta.setMensaje("El vehículo no tiene datos de restricción");
 				}
 
 			} else {
-				respuesta.setHttpStatus(HttpStatus.NOT_FOUND);
+				respuesta.setHttpStatus(HttpStatus.NO_CONTENT);
 				respuesta.setMensaje("El vehículo no existe");
 			}
 		} catch (DateTimeParseException de) {
